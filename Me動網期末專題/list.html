@@ -1,0 +1,171 @@
+<html>
+<head>
+  <title>Algorithm List</title>
+  <link rel="icon" href= "favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
+  <a class="navbar-brand" href=list.html>SORTING ALGORITHM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+
+  <div class=" collapse navbar-collapse "  id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href=list.html>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href=BubbleSort.html>bubblesort</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href=HeapSort.html>heapsort</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link " href=MergeSort.html>mergesort</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link " href=QuickSort.html>quicksort</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link " href=SelectionSort.html>selectionsort</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link " href=InsertionSort.html>insertionsort</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link " href=CountingSort.html>countingsort</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link " href=RadixSort.html>radixsort</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+
+
+<div class="jumbotron jumbotron-fluid bg-info text-white text-center " > 
+  <h1 class="display-2  ">What is Sorting?</h1>
+  
+  <p class="lead ">
+	A Sorting Algorithm is used to rearrange a given 
+	array or list of elements according to a comparison 
+	operator on the elements.<br> The comparison operator 
+	is used to decide the new order of elements in the
+	respective data structure.
+  </p>
+  <br>
+  <button class="btn btn-outline-light btn-lg ">continue below...
+  </button> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg-3 "> 
+      <div class="card" >
+       <img src="BS.jpg" class="card-img-top " alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Bubble Sort </h5>
+         <p class="card-text">is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.</p>
+         <button class="btn btn-info" onclick='window.location=&quot;BubbleSort.html&quot;;'>Bubble Sort </button>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="card" >
+       <img src="SS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Selection Sort </h5>
+         <p class="card-text">sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning.</p>
+          <button class="btn btn-info" onclick='window.location=&quot;SelectionSort.html&quot;;'>Selection Sort </button>
+        </div>
+      </div>
+    </div>
+  <br>
+
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="card">
+       <img src="IS.jpg" class="card-img-top card-fluid" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Insertion sort </h5>
+         <p class="card-text">is a simple sorting algorithm that works similar to the way you sort playing cards in your hands.</p>
+          <button class="btn btn-info" onclick='window.location=&quot;InsertionSort.html&quot;;'>Insertion sort </button>
+        </div>
+      </div>
+    </div>
+   <br>
+       <div class="col-md-6 col-lg-3  "> 
+      <div class="card">
+       <img src="HS.jpg" class="card-img-top card-fluid" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Heap sort </h5>
+         <p class="card-text">is a comparison-based sorting technique based on Binary Heap data structure. </p>
+          <button  class="btn btn-info" onclick='window.location=&quot;HeapSort.html&quot;;'>Heap sort </button>
+        </div>
+      </div>
+    </div>
+   <br>    <div class="col-md-6 col-lg-3  "> 
+      <div class="card">
+       <img src="MS.jpg" class="card-img-top card-fluid" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Merge Sort </h5>
+         <p class="card-text">algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm.</p>
+          <button class="btn btn-info" onclick='window.location=&quot;MergeSort.html&quot;;'>Merge Sort </button>
+        </div>
+      </div>
+    </div>
+   <br>    <div class="col-md-6 col-lg-3  "> 
+      <div class="card">
+       <img src="CS.jpg" class="card-img-top card-fluid" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Counting sort </h5>
+         <p class="card-text">is a sorting technique based on keys between a specific range.</p>
+          <button class="btn btn-info" onclick='window.location=&quot;CountingSort.html&quot;;'>Counting sort </button>
+        </div>
+      </div>
+    </div>
+   <br>
+   <div class="col-md-6 col-lg-3  "> 
+      <div class="card">
+       <img src="RS.jpg" class="card-img-top card-fluid" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Radix Sort </h5>
+         <p class="card-text">is to do digit by digit sort starting from least significant digit to most significant digit.</p>
+          <button class="btn btn-info" onclick='window.location=&quot;RadixSort.html&quot;;'>Radix Sort </button>
+        </div>
+      </div>
+    </div>
+   <br>
+    <div class="col-md-6 col-lg-3 "> 
+      <div class="card" >
+       <img src="QS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Quick Sort </h5>
+         <p class="card-text">is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. </p>
+          <button class="btn btn-info" onclick='window.location=&quot;QuickSort.html&quot;;'>Quick Sort </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul> 
+  <li>
+   <a class="nav-link" href="#">Back to top</a>
+  </li>
+  <li><button onclick="window.location=&quot;randomTest.html&quot;;">Test your ability</button></li>
+</ul>
+
+
+</body>
+</html>
