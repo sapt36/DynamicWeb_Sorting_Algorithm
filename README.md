@@ -1,6 +1,6 @@
-# Sorting Algorithm Dynamic Web Project
+## Web-Based Sorting Algorithm Learning & Visualization Tool
 
-## Project Overview
+### Project Overview
 
 This project is a front-end website designed to demonstrate the principles and implementations of various common sorting algorithms. It also provides an interactive quiz to test users' understanding of these algorithms. Through this website, users can browse the following content:
 
@@ -10,14 +10,14 @@ This project is a front-end website designed to demonstrate the principles and i
 - A random quiz page that allows users to test their knowledge of sorting algorithms, with a score and feedback displayed on the results page.
 - An additional demonstration page that shows a simple implementation and flowchart for checking if a string is a Palindrome.
 
-## Key Features
+### Key Features
 
 - **Sorting Algorithm Demonstrations**: Includes dynamic demonstrations of Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort, Counting Sort, and Radix Sort.
 - **Interactive Quiz**: The random quiz page (`randomTest.html`) provides multiple-choice questions, and the results page (`result.html`) displays the user's score and feedback for each question.
 - **User Login**: A simple login page (`login.html`) allows users to enter a username and password, with the information stored in `localStorage` for use on other pages.
 - **Additional Demo**: The `web1.html` page demonstrates palindrome checking with pseudocode, a flowchart, and related explanations for learning purposes.
 
-## Directory Structure
+### Directory Structure
 
 ```
 sapt36-dynamicweb_sorting_algorithm/
@@ -38,7 +38,7 @@ sapt36-dynamicweb_sorting_algorithm/
 
 ```
 
-## How to Use
+### How to Use
 
 1. **Download or Clone the Project Files**
     - Download the entire `sapt36-dynamicweb_sorting_algorithm` directory to your local computer.
@@ -52,7 +52,7 @@ sapt36-dynamicweb_sorting_algorithm/
 4. **Additional Features**
     - Click on `web1.html` to browse the "Palindrome Check" demonstration, which includes pseudocode, a flowchart, and explanations for learning purposes.
 
-## Technologies and Resources
+### Technologies and Resources
 
 - **Front-end Technologies**: HTML5, CSS3, JavaScript
 - **External Frameworks and Libraries**:
@@ -61,7 +61,7 @@ sapt36-dynamicweb_sorting_algorithm/
     - [Popper.js](https://popper.js.org/): To support Bootstrap components like tooltips.
 - **Data Storage**: Uses HTML5's `localStorage` to access user login information and quiz results.
 
-## Customization and Expansion
+### Customization and Expansion
 
 - **Layout and Styles**
 Using the Bootstrap framework and some custom CSS, you can modify the styles or adjust the page structure as needed.
@@ -70,7 +70,7 @@ If you need to demonstrate other sorting algorithms, you can create a new page a
 - **Interactive Features**
 The login and quiz functions are implemented using JavaScript and `localStorage`, allowing users to modify the logic and interface design based on their needs.
 
-## Notes
+### Notes
 
 - **Browser Compatibility**
 It is recommended to use a modern browser (e.g., Chrome, Firefox, Edge) for the best viewing experience.
